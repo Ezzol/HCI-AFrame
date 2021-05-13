@@ -10,12 +10,38 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        width="3"
-        height="2"
-        depth="1"
-        color="#BBAA33" 
-        shadow>
+        width="5"
+        height="1"
+        depth="2"
+        color="#746386" 
+        shadow
+        position="0.8 1.5 -4"
+        rotation="30 40 3"
+        scale="1 1.4 0.5">
       </a-box>
+
+      <a-plane
+        position="0 -2 0"
+        rotation="-90 0 0"
+        width="100"
+        height="100"
+        color="#929EA1">
+      </a-plane>
+
+      <a-octahedron
+        position="0.8 1.5 -2"
+        rotation="-20 40 0"
+        radius="0.5"
+        color="#C5A1AA">
+      </a-octahedron>
+
+      <a-sphere
+        position="1 0.5 -3"
+        radius="0.2"
+        color="#60627A"
+      >
+      </a-sphere>
+
     </a-scene>
   </body>
 </html>
