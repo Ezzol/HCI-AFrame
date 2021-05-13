@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
+html, body{
+    margin: 0;
+    padding-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #212121;
+    color: #B362F7;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0;
+}
+
+a{
+    color: #ABABAB;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #B362F7;
+}
