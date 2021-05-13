@@ -19,14 +19,11 @@
         <a-entity id="mouseCursor"
           cursor="fuse: true; fuseTimeout: 1500">
         </a-entity>
-        <a-torus-knot id="cursorRing" 
+        <a-box id="cursorRing" 
           position="0 0 -1"
-          radius="100"
-          p="2"
-          q="2"
-          arc="180"
-          material="color: red; shader: flat">
-        </a-torus-knot>
+          scale="0.1 0.1 0.1"
+          color="blue">
+        </a-box>
       </a-camera>
       
       <a-box id="myBox" 
